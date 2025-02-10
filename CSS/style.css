@@ -1,5 +1,12 @@
-nav,
-ul,
-li {
-    color: red !important;
+.mon_style{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4S ease-in-out,
+        border-color 0.3s ease;
+
+    &:hover {
+        border-bottom-color: white;
+        padding-bottom: 5px;
+    }
+
 }
+
