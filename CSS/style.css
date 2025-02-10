@@ -1,12 +1,16 @@
-.mon_style{
-    border-bottom: 1px solid transparent;
-    transition: padding-bottom 0.4S ease-in-out,
-        border-color 0.3s ease;
 
-    &:hover {
-        border-bottom-color: white;
-        padding-bottom: 5px;
-    }
+.navigation{
+    color: aqua !important;
+}
+.nav-item-list a{
+    transition: 0.5s ease-in-out;
+}
+.nav-item-list a:hover{
+    color: rgb(186, 105, 105) !important;
+    letter-spacing: 1px;
+    border-bottom: 1px solid  rgb(186, 105, 105);
+    border-top: 1px solid  rgb(186, 105, 105);
 
 }
+
 
